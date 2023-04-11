@@ -64,9 +64,9 @@
   (pad "26" smd rect (at -1.91 0.4) (size 0.66 0.2) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 525b6024-ffe2-463e-b4b6-42230208d13a))
   (pad "27" smd rect (at -1.91 0.8) (size 0.66 0.2) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp a514fff4-86fd-4336-ac92-e2bd8b81e5da))
   (pad "28" smd rect (at -1.91 1.2) (size 0.66 0.2) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 5bda0f01-8385-4179-9303-acbcadc9bfcd))
-  (model "${KIPRJMOD}/EduboardV2_kicadlib.3dshapes/QFN-28_L4.0-W4.0-H0.9-P0.40-BL-EP.wrl"
+  (model "${EduboardV2_kicadlib}/EduboardV2_kicadlib.3dshapes/QFN-28_L4.0-W4.0-H0.9-P0.40-BL-EP.wrl"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
-    (rotate (xyz 0 0 90))
+    (rotate (xyz 0 0 -90))
   )
 )
