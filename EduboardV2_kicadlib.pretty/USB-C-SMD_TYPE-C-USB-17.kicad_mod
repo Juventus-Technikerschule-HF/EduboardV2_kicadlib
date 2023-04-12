@@ -1,6 +1,6 @@
 (footprint "USB-C-SMD_TYPE-C-USB-17" (version 20221018) (generator pcbnew)
   (layer "F.Cu")
-  (attr through_hole)
+  (attr smd)
   (fp_text reference "REF**" (at 0 -6.63) (layer "F.SilkS")
       (effects (font (size 1 1) (thickness 0.15)))
     (tstamp acdae7d3-5dfd-4738-93f2-442d732bb90e)
