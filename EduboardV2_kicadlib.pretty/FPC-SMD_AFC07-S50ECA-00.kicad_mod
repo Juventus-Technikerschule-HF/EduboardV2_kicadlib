@@ -100,4 +100,9 @@
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
   )
+  (model "${EduboardV2_kicadlib}/EduboardV2_kicadlib.3dshapes/ER-TFT035-6_3D.STEP"
+    (offset (xyz 0.08 -73 -1.5))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 180))
+  )
 )
