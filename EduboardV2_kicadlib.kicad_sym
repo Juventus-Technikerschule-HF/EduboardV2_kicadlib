@@ -2437,7 +2437,11 @@
       )
       (pin input line (at 0 -73.025 90) (length 2.54)
         (name "GNDPad" (effects (font (size 1.27 1.27))))
-        (number "53,54" (effects (font (size 1.27 1.27))))
+        (number "53" (effects (font (size 1.27 1.27))))
+      )
+      (pin input line (at 0 -73.025 90) (length 2.54) hide
+        (name "GNDPad" (effects (font (size 1.27 1.27))))
+        (number "54" (effects (font (size 1.27 1.27))))
       )
       (pin power_in line (at 34.29 -5.08 180) (length 2.54)
         (name "3.3V" (effects (font (size 1.27 1.27))))
@@ -3412,7 +3416,7 @@
       (polyline
         (pts
           (xy -5.08 -5.08)
-          (xy 5.08 -5.08)
+          (xy -2.54 -5.08)
         )
         (stroke (width 0) (type default))
         (fill (type none))
@@ -3420,31 +3424,31 @@
       (polyline
         (pts
           (xy -5.08 5.08)
-          (xy 5.08 5.08)
+          (xy -2.54 5.08)
         )
         (stroke (width 0) (type default))
         (fill (type none))
       )
       (polyline
         (pts
-          (xy 0 -5.08)
-          (xy 0 -2.54)
+          (xy -2.54 -5.08)
+          (xy -2.54 -2.54)
         )
         (stroke (width 0) (type default))
         (fill (type none))
       )
       (polyline
         (pts
-          (xy 0 5.08)
-          (xy 0 2.54)
+          (xy -2.54 5.08)
+          (xy -2.54 2.54)
         )
         (stroke (width 0) (type default))
         (fill (type none))
       )
       (polyline
         (pts
-          (xy 0.508 2.286)
-          (xy 1.778 -2.032)
+          (xy -2.032 2.286)
+          (xy -0.762 -2.032)
         )
         (stroke (width 0) (type default))
         (fill (type none))
@@ -3453,7 +3457,7 @@
         (name "1" (effects (font (size 1.27 1.27))))
         (number "1" (effects (font (size 1.27 1.27))))
       )
-      (pin unspecified line (at 7.62 5.08 180) (length 2.54)
+      (pin unspecified line (at -7.62 5.08 0) (length 2.54) hide
         (name "2" (effects (font (size 1.27 1.27))))
         (number "2" (effects (font (size 1.27 1.27))))
       )
@@ -3461,7 +3465,7 @@
         (name "3" (effects (font (size 1.27 1.27))))
         (number "3" (effects (font (size 1.27 1.27))))
       )
-      (pin unspecified line (at 7.62 -5.08 180) (length 2.54)
+      (pin unspecified line (at -7.62 -5.08 0) (length 2.54) hide
         (name "4" (effects (font (size 1.27 1.27))))
         (number "4" (effects (font (size 1.27 1.27))))
       )
@@ -5754,7 +5758,7 @@
     (property "Value" "" (at 0 0 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "EduboardV2_kicadlib:protoboard_patch" (at 5.08 40.64 0)
+    (property "Footprint" "EduboardV2_kicadlib:protoboard_patch" (at 2.54 59.69 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "" (at 0 0 0)
@@ -5767,13 +5771,17 @@
       )
     )
     (symbol "protoboard_patch_1_1"
-      (pin power_in line (at 17.78 -41.91 90) (length 2.54)
+      (pin power_in line (at 7.62 -41.91 90) (length 2.54)
         (name "GND" (effects (font (size 1.27 1.27))))
-        (number "1,4,7,10" (effects (font (size 1.27 1.27))))
+        (number "1" (effects (font (size 1.27 1.27))))
       )
-      (pin power_in line (at 13.97 -41.91 90) (length 2.54)
+      (pin power_in line (at 7.62 -41.91 90) (length 2.54) hide
         (name "GND" (effects (font (size 1.27 1.27))))
-        (number "11,14,18,23,30" (effects (font (size 1.27 1.27))))
+        (number "10" (effects (font (size 1.27 1.27))))
+      )
+      (pin power_in line (at 7.62 -41.91 90) (length 2.54) hide
+        (name "GND" (effects (font (size 1.27 1.27))))
+        (number "11" (effects (font (size 1.27 1.27))))
       )
       (pin input line (at -6.35 16.51 0) (length 2.54)
         (name "SCL" (effects (font (size 1.27 1.27))))
@@ -5782,6 +5790,10 @@
       (pin input line (at -6.35 12.7 0) (length 2.54)
         (name "SDA" (effects (font (size 1.27 1.27))))
         (number "13" (effects (font (size 1.27 1.27))))
+      )
+      (pin power_in line (at 7.62 -41.91 90) (length 2.54) hide
+        (name "GND" (effects (font (size 1.27 1.27))))
+        (number "14" (effects (font (size 1.27 1.27))))
       )
       (pin input line (at -6.35 8.89 0) (length 2.54)
         (name "MISO" (effects (font (size 1.27 1.27))))
@@ -5795,13 +5807,17 @@
         (name "SCK" (effects (font (size 1.27 1.27))))
         (number "17" (effects (font (size 1.27 1.27))))
       )
+      (pin power_in line (at 7.62 -41.91 90) (length 2.54) hide
+        (name "GND" (effects (font (size 1.27 1.27))))
+        (number "18" (effects (font (size 1.27 1.27))))
+      )
       (pin input line (at -6.35 -2.54 0) (length 2.54)
         (name "RX_0" (effects (font (size 1.27 1.27))))
         (number "19" (effects (font (size 1.27 1.27))))
       )
-      (pin input line (at 13.97 21.59 270) (length 2.54)
+      (pin power_in line (at 11.43 21.59 270) (length 2.54)
         (name "V_Ext" (effects (font (size 1.27 1.27))))
-        (number "2,3,38,39" (effects (font (size 1.27 1.27))))
+        (number "2" (effects (font (size 1.27 1.27))))
       )
       (pin input line (at -6.35 -6.35 0) (length 2.54)
         (name "TX_0" (effects (font (size 1.27 1.27))))
@@ -5814,6 +5830,10 @@
       (pin input line (at -6.35 -13.97 0) (length 2.54)
         (name "TX_1" (effects (font (size 1.27 1.27))))
         (number "22" (effects (font (size 1.27 1.27))))
+      )
+      (pin power_in line (at 7.62 -41.91 90) (length 2.54) hide
+        (name "GND" (effects (font (size 1.27 1.27))))
+        (number "23" (effects (font (size 1.27 1.27))))
       )
       (pin input line (at -6.35 -17.78 0) (length 2.54)
         (name "AN0" (effects (font (size 1.27 1.27))))
@@ -5839,21 +5859,101 @@
         (name "GPIOX4" (effects (font (size 1.27 1.27))))
         (number "29" (effects (font (size 1.27 1.27))))
       )
-      (pin power_in line (at 10.16 -41.91 90) (length 2.54)
+      (pin power_in line (at 11.43 21.59 270) (length 2.54) hide
+        (name "V_Ext" (effects (font (size 1.27 1.27))))
+        (number "3" (effects (font (size 1.27 1.27))))
+      )
+      (pin power_in line (at 7.62 -41.91 90) (length 2.54) hide
         (name "GND" (effects (font (size 1.27 1.27))))
-        (number "31,34,37,40" (effects (font (size 1.27 1.27))))
+        (number "30" (effects (font (size 1.27 1.27))))
       )
-      (pin power_in line (at 6.35 -41.91 90) (length 2.54)
+      (pin power_in line (at 7.62 -41.91 90) (length 2.54) hide
         (name "GND" (effects (font (size 1.27 1.27))))
-        (number "41,42,43,44,45,46" (effects (font (size 1.27 1.27))))
+        (number "31" (effects (font (size 1.27 1.27))))
       )
-      (pin input line (at 10.16 21.59 270) (length 2.54)
-        (name "5V" (effects (font (size 1.27 1.27))))
-        (number "5,6,35,36" (effects (font (size 1.27 1.27))))
-      )
-      (pin input line (at 6.35 21.59 270) (length 2.54)
+      (pin power_in line (at 3.81 21.59 270) (length 2.54) hide
         (name "3.3V" (effects (font (size 1.27 1.27))))
-        (number "8,9,32,33" (effects (font (size 1.27 1.27))))
+        (number "32" (effects (font (size 1.27 1.27))))
+      )
+      (pin power_in line (at 3.81 21.59 270) (length 2.54) hide
+        (name "3.3V" (effects (font (size 1.27 1.27))))
+        (number "33" (effects (font (size 1.27 1.27))))
+      )
+      (pin power_in line (at 7.62 -41.91 90) (length 2.54) hide
+        (name "GND" (effects (font (size 1.27 1.27))))
+        (number "34" (effects (font (size 1.27 1.27))))
+      )
+      (pin power_in line (at 7.62 21.59 270) (length 2.54) hide
+        (name "5V" (effects (font (size 1.27 1.27))))
+        (number "35" (effects (font (size 1.27 1.27))))
+      )
+      (pin power_in line (at 7.62 21.59 270) (length 2.54) hide
+        (name "5V" (effects (font (size 1.27 1.27))))
+        (number "36" (effects (font (size 1.27 1.27))))
+      )
+      (pin power_in line (at 7.62 -41.91 90) (length 2.54) hide
+        (name "GND" (effects (font (size 1.27 1.27))))
+        (number "37" (effects (font (size 1.27 1.27))))
+      )
+      (pin power_in line (at 11.43 21.59 270) (length 2.54) hide
+        (name "V_Ext" (effects (font (size 1.27 1.27))))
+        (number "38" (effects (font (size 1.27 1.27))))
+      )
+      (pin power_in line (at 11.43 21.59 270) (length 2.54) hide
+        (name "V_Ext" (effects (font (size 1.27 1.27))))
+        (number "39" (effects (font (size 1.27 1.27))))
+      )
+      (pin power_in line (at 7.62 -41.91 90) (length 2.54) hide
+        (name "GND" (effects (font (size 1.27 1.27))))
+        (number "4" (effects (font (size 1.27 1.27))))
+      )
+      (pin power_in line (at 7.62 -41.91 90) (length 2.54) hide
+        (name "GND" (effects (font (size 1.27 1.27))))
+        (number "40" (effects (font (size 1.27 1.27))))
+      )
+      (pin power_in line (at 7.62 -41.91 90) (length 2.54) hide
+        (name "GND" (effects (font (size 1.27 1.27))))
+        (number "41" (effects (font (size 1.27 1.27))))
+      )
+      (pin power_in line (at 7.62 -41.91 90) (length 2.54) hide
+        (name "GND" (effects (font (size 1.27 1.27))))
+        (number "42" (effects (font (size 1.27 1.27))))
+      )
+      (pin power_in line (at 7.62 -41.91 90) (length 2.54) hide
+        (name "GND" (effects (font (size 1.27 1.27))))
+        (number "43" (effects (font (size 1.27 1.27))))
+      )
+      (pin power_in line (at 7.62 -41.91 90) (length 2.54) hide
+        (name "GND" (effects (font (size 1.27 1.27))))
+        (number "44" (effects (font (size 1.27 1.27))))
+      )
+      (pin power_in line (at 7.62 -41.91 90) (length 2.54) hide
+        (name "GND" (effects (font (size 1.27 1.27))))
+        (number "45" (effects (font (size 1.27 1.27))))
+      )
+      (pin power_in line (at 7.62 -41.91 90) (length 2.54) hide
+        (name "GND" (effects (font (size 1.27 1.27))))
+        (number "46" (effects (font (size 1.27 1.27))))
+      )
+      (pin power_in line (at 7.62 21.59 270) (length 2.54)
+        (name "5V" (effects (font (size 1.27 1.27))))
+        (number "5" (effects (font (size 1.27 1.27))))
+      )
+      (pin power_in line (at 7.62 21.59 270) (length 2.54) hide
+        (name "5V" (effects (font (size 1.27 1.27))))
+        (number "6" (effects (font (size 1.27 1.27))))
+      )
+      (pin power_in line (at 7.62 -41.91 90) (length 2.54) hide
+        (name "GND" (effects (font (size 1.27 1.27))))
+        (number "7" (effects (font (size 1.27 1.27))))
+      )
+      (pin power_in line (at 3.81 21.59 270) (length 2.54)
+        (name "3.3V" (effects (font (size 1.27 1.27))))
+        (number "8" (effects (font (size 1.27 1.27))))
+      )
+      (pin power_in line (at 3.81 21.59 270) (length 2.54) hide
+        (name "3.3V" (effects (font (size 1.27 1.27))))
+        (number "9" (effects (font (size 1.27 1.27))))
       )
     )
   )
