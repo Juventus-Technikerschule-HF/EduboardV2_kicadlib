@@ -40,7 +40,7 @@
   (pad "3" smd rect (at 0.95 -1.19) (size 0.84 0.84) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 9ec76261-f74b-4992-b1d8-654128b9d90d))
   (pad "4" smd rect (at -0.95 -1.19) (size 0.84 0.84) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp ebb8b214-eb7b-4822-a07f-c679db6c2b68))
   (model "${EduboardV2_kicadlib}/EduboardV2_kicadlib.3dshapes/SOT-143-4_L2.9-W1.3-P1.92-LS2.4-BL.wrl"
-    (offset (xyz 0 0 0))
+    (offset (xyz 0 0 0.5))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
   )
