@@ -1,6 +1,6 @@
 (footprint "SOT-143-4_L2.9-W1.3-P1.92-LS2.4-BL" (version 20221018) (generator pcbnew)
   (layer "F.Cu")
-  (attr through_hole)
+  (attr smd)
   (fp_text reference "REF**" (at 0 -5.19) (layer "F.SilkS")
       (effects (font (size 1 1) (thickness 0.15)))
     (tstamp abf59211-8f8a-42d2-9397-90cac1373978)

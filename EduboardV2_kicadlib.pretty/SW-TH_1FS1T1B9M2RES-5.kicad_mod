@@ -35,9 +35,9 @@
     (stroke (width 0.9) (type solid)) (fill none) (layer "F.Fab") (tstamp cfea8d6b-a975-48e3-aa45-c3a210d24237))
   (fp_circle (center 6.03 6.63) (end 6.06 6.63)
     (stroke (width 0.06) (type solid)) (fill none) (layer "F.Fab") (tstamp f0b204c2-b53b-4008-84aa-b639768a7c29))
-  (pad "1" thru_hole circle (at 0 4.5 90) (size 2.8 2.8) (drill 1.999996) (layers "*.Cu" "*.Paste" "*.Mask") (tstamp bc1015de-d439-42a2-aab6-1b4ed0010657))
-  (pad "2" thru_hole circle (at 0 0 90) (size 2.8 2.8) (drill 1.999996) (layers "*.Cu" "*.Paste" "*.Mask") (tstamp 98d5e568-edc4-4f71-9013-93aae22eb899))
-  (pad "3" thru_hole circle (at 0 -4.5 90) (size 2.8 2.8) (drill 1.999996) (layers "*.Cu" "*.Paste" "*.Mask") (tstamp cde53b2f-e09c-4c55-9215-b47d13385eca))
+  (pad "1" thru_hole circle (at 0 4.5 90) (size 2.8 2.8) (drill 1.999996) (layers "*.Cu" "*.Mask") (tstamp bc1015de-d439-42a2-aab6-1b4ed0010657))
+  (pad "2" thru_hole circle (at 0 0 90) (size 2.8 2.8) (drill 1.999996) (layers "*.Cu" "*.Mask") (tstamp 98d5e568-edc4-4f71-9013-93aae22eb899))
+  (pad "3" thru_hole circle (at 0 -4.5 90) (size 2.8 2.8) (drill 1.999996) (layers "*.Cu" "*.Mask") (tstamp cde53b2f-e09c-4c55-9215-b47d13385eca))
   (model "${EduboardV2_kicadlib}/EduboardV2_kicadlib.3dshapes/SW-TH_L12.9-W11.8-H29.5-P4.5.wrl"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))

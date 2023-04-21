@@ -1,6 +1,6 @@
 (footprint "CONN-SMD_S4B-PH-SM4-K-TB-LF-SN" (version 20221018) (generator pcbnew)
   (layer "F.Cu")
-  (attr through_hole)
+  (attr smd)
   (fp_text reference "REF**" (at 0 -7) (layer "F.SilkS")
       (effects (font (size 1 1) (thickness 0.15)))
     (tstamp 80a2f828-861b-4fa9-8336-d8e983e60152)

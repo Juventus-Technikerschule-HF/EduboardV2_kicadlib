@@ -1,6 +1,6 @@
 (footprint "LGA-12_L2.0-W2.0-P0.50-TR" (version 20221018) (generator pcbnew)
   (layer "F.Cu")
-  (attr through_hole)
+  (attr smd)
   (fp_text reference "REF**" (at 0 -4.9) (layer "F.SilkS")
       (effects (font (size 1 1) (thickness 0.15)))
     (tstamp caa9fcbf-a5f5-495d-ae1f-18afb0418fa7)

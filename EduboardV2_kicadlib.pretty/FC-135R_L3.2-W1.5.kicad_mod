@@ -1,6 +1,6 @@
 (footprint "FC-135R_L3.2-W1.5" (version 20221018) (generator pcbnew)
   (layer "F.Cu")
-  (attr through_hole)
+  (attr smd)
   (fp_text reference "REF**" (at 0 -4) (layer "F.SilkS")
       (effects (font (size 1 1) (thickness 0.15)))
     (tstamp 65af68ff-2134-4703-84c3-94bb2652bf8f)

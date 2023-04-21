@@ -1,6 +1,6 @@
 (footprint "SOIC-8_L5.3-W5.3-P1.27-LS8.0-BL" (version 20221018) (generator pcbnew)
   (layer "F.Cu")
-  (attr through_hole)
+  (attr smd)
   (fp_text reference "REF**" (at 0 -7.53) (layer "F.SilkS")
       (effects (font (size 1 1) (thickness 0.15)))
     (tstamp 3674abd7-fad9-4ac6-8da5-54ee1491001c)

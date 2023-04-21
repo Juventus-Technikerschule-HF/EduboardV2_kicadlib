@@ -1,6 +1,6 @@
 (footprint "CONN-SMD_52P-P0.80-V_91304-70-052RXXX" (version 20221018) (generator pcbnew)
   (layer "F.Cu")
-  (attr through_hole)
+  (attr smd)
   (fp_text reference "REF**" (at 0 -8.1) (layer "F.SilkS")
       (effects (font (size 1 1) (thickness 0.15)))
     (tstamp 7ed170e2-c3ea-4c4a-b47e-c1e482779d34)

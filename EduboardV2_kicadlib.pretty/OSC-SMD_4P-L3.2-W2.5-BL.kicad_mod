@@ -1,6 +1,6 @@
 (footprint "OSC-SMD_4P-L3.2-W2.5-BL" (version 20221018) (generator pcbnew)
   (layer "F.Cu")
-  (attr through_hole)
+  (attr smd)
   (fp_text reference "REF**" (at 0 -4.88) (layer "F.SilkS")
       (effects (font (size 1 1) (thickness 0.15)))
     (tstamp e1fb61a3-2081-4d2b-9b31-95ee49c8ca45)

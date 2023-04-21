@@ -1,6 +1,6 @@
 (footprint "LED-SMD_4P-L5.0-W5.0-TL_WS2812B-B" (version 20221018) (generator pcbnew)
   (layer "F.Cu")
-  (attr through_hole)
+  (attr smd)
   (fp_text reference "REF**" (at 0 -5.65) (layer "F.SilkS")
       (effects (font (size 1 1) (thickness 0.15)))
     (tstamp 0d424b10-759c-4e4b-9008-bcb23798afd2)

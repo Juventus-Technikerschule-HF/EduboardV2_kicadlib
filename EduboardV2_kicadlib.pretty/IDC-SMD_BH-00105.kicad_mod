@@ -1,6 +1,6 @@
 (footprint "IDC-SMD_BH-00105" (version 20221018) (generator pcbnew)
   (layer "F.Cu")
-  (attr through_hole)
+  (attr smd)
   (fp_text reference "REF**" (at 0 -7.2) (layer "F.SilkS")
       (effects (font (size 1 1) (thickness 0.15)))
     (tstamp 75cc751c-c6b9-40f4-a0aa-4080416dedbb)

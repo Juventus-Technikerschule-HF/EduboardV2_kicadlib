@@ -1,6 +1,6 @@
 (footprint "BAT-SMD_CR1220-2ZX" (version 20221018) (generator pcbnew)
   (layer "F.Cu")
-  (attr through_hole)
+  (attr smd)
   (fp_text reference "REF**" (at 0 -4) (layer "F.SilkS")
       (effects (font (size 1 1) (thickness 0.15)))
     (tstamp a2be734a-20d3-4a85-a23f-cd56f013a604)

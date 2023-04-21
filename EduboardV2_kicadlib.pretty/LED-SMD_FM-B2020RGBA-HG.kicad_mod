@@ -1,6 +1,6 @@
 (footprint "LED-SMD_FM-B2020RGBA-HG" (version 20221018) (generator pcbnew)
   (layer "F.Cu")
-  (attr through_hole)
+  (attr smd)
   (fp_text reference "REF**" (at 0 -4.55) (layer "F.SilkS")
       (effects (font (size 1 1) (thickness 0.15)))
     (tstamp 34ed16e3-df17-428f-968f-ce043a083580)
