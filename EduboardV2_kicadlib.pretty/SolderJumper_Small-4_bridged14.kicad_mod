@@ -3,7 +3,7 @@
   (descr "SMD Solder 3-pad Jumper, 1x1.5mm rounded Pads, 0.3mm gap, pads 1-2 bridged with 1 copper strip")
   (tags "net tie solder jumper bridged")
   (attr exclude_from_pos_files exclude_from_bom)
-  (net_tie_pad_groups "1, 2, 3")
+  (net_tie_pad_groups "1, 2, 3,4")
   (fp_text reference "REF**" (at 0 -1.8) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
     (tstamp fb938a99-3684-43f2-a488-89a83e63f06c)
@@ -14,10 +14,10 @@
   )
   (fp_poly
     (pts
-      (xy -0.8 0.2)
-      (xy -0.3 0.2)
-      (xy -0.3 0.4)
-      (xy -0.8 0.4)
+      (xy -0.65 0.2)
+      (xy -0.4 0.2)
+      (xy -0.4 0.4)
+      (xy -0.65 0.4)
     )
 
     (stroke (width 0) (type solid)) (fill solid) (layer "F.Cu") (tstamp 0eca9e4e-b58f-49aa-b2cf-15107f573b9b))
