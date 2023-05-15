@@ -98,12 +98,17 @@
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
   )
-  (model "${EduboardV2_kicadlib}/EduboardV2_kicadlib.3dshapes/EduboardV2_ESP32.wrl"
+  (model "${EduboardV2_kicadlib}/EduboardV2_kicadlib.3dshapes/EduboardV2_ESP32.wrl" hide
     (offset (xyz -119.38 156.9 4.7))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
   )
   (model "${EduboardV2_kicadlib}/EduboardV2_kicadlib.3dshapes/EduboardV2_ATmega328PB.wrl" hide
+    (offset (xyz -119.38 156.9 4.7))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
+  (model "${EduboardV2_kicadlib}/EduboardV2_kicadlib.3dshapes/EduboardV2_ESP32-S3.wrl"
     (offset (xyz -119.38 156.9 4.7))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
