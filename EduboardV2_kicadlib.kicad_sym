@@ -2146,7 +2146,7 @@
     (property "Value" "CP2102N-A02-GQFN28R" (at 0 -21.59 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "easyeda2kicad:QFN-28_L5.0-W5.0-P0.50-TL-EP3.3" (at 0 -24.13 0)
+    (property "Footprint" "EduboardV2_kicadlib:QFN-28_L5.0-W5.0-P0.50-TL-EP3.3" (at 0 -24.13 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "" (at 0 0 0)
